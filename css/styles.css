@@ -195,7 +195,12 @@ h3 {
 }
 /*=========BANNER===========*/
 .banner {
-  background-color: var(--banner-bg-color);
+  margin: 0 auto;
+  /* background-color: var(--banner-bg-color); */
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 201px 0;
   text-align: center;
 }
