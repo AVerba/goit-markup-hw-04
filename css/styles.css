@@ -42,6 +42,11 @@ li {
   max-width: 100%;
   height: auto;
 }
+._d-flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -223,6 +228,12 @@ h3 {
 .respons__item {
   flex-basis: calc(100% / 3 - var(--card-respons-set-gap));
   margin-left: var(--card-respons-set-gap);
+}
+.item__icon {
+  margin: 0 0 30px 0;
+  padding: 25px 0;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .respons__item h3 {
