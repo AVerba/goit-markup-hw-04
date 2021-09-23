@@ -6,6 +6,7 @@
   --action-color: #2196f3;
   --section-title-color: #212121;
   --common-text-color: #757575;
+  --social--link--color: #afb1b8;
 
   --card-set-gap: 30px;
   --card-respons-set-gap: 30px;
@@ -191,7 +192,7 @@ h3 {
   fill: var(--action-color);
 }
 .icon {
-  fill: #757575;
+  fill: var(--social--link--color);
 }
 /*=========BANNER===========*/
 .banner {
@@ -343,7 +344,7 @@ h3 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--social--link--color);
 }
 .f-contacts__list li:first-child .f-contacts__link {
   color: #ffff;
