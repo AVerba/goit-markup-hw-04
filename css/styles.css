@@ -192,7 +192,13 @@ h3 {
 .header__contacts li:hover a {
   color: var(--action-color);
 }
+.header__contacts li:focus a {
+  color: var(--action-color);
+}
 .header__contacts li:hover .icon {
+  fill: var(--action-color);
+}
+.header__contacts li:focus .icon {
   fill: var(--action-color);
 }
 
