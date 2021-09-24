@@ -157,7 +157,7 @@ h3 {
   color: #000;
   cursor: pointer;
 }
-.menu__link.active {
+._active {
   color: var(--action-color);
 }
 .menu__link:hover {
