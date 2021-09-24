@@ -43,6 +43,7 @@ li {
   display: block;
   max-width: 100%;
   height: auto;
+  fill: var(--social--link--color);
 }
 ._d-flex {
   display: flex;
@@ -194,9 +195,7 @@ h3 {
 .header__contacts li:hover svg {
   fill: var(--action-color);
 }
-.icon {
-  fill: var(--social--link--color);
-}
+
 /*=========BANNER===========*/
 .banner {
   margin: 0 auto;
@@ -347,7 +346,8 @@ h3 {
   border: 1px solid var(--action-color);
   cursor: pointer;
 }
-.clients__link {
+.clients__item:hover svg {
+  fill: var(--action-color);
 }
 .clients__item:first-child .clients__link {
   padding: 22px 63px;
