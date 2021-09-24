@@ -117,7 +117,7 @@ h3 {
 }
 /* LOGO */
 .logo {
-  display: inline-block;
+  display: block;
   font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
@@ -129,9 +129,11 @@ h3 {
 .header {
   border-bottom: 1px solid #ececec;
 }
+.header__logo {
+  margin-right: 93px;
+}
 .header__logo span {
   color: #000;
-  margin-right: 93px;
 }
 .menu__list {
   display: flex;
