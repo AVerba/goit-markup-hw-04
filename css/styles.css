@@ -350,22 +350,22 @@ h3 {
 .clients__link {
 }
 .clients__item:first-child .clients__link {
-  margin: 22px 63px;
+  padding: 22px 63px;
 }
 .clients__item:nth-child(2) .clients__link {
-  margin: 19px 64px;
+  padding: 19px 64px;
 }
 .clients__item:nth-child(3) .clients__link {
-  margin: 24px 61px;
+  padding: 24px 61px;
 }
 .clients__item:nth-child(4) .clients__link {
-  margin: 24px 43px;
+  padding: 24px 43px;
 }
 .clients__item:nth-child(5) .clients__link {
-  margin: 22px 53px;
+  padding: 22px 53px;
 }
 .clients__item:last-child .clients__link {
-  margin: 22px 37px;
+  padding: 22px 37px;
 }
 
 /*=========FOOTER===========*/
