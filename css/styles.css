@@ -192,7 +192,7 @@ h3 {
 .header__contacts li:hover a {
   color: var(--action-color);
 }
-.header__contacts li:hover svg {
+.header__contacts li:hover .icon {
   fill: var(--action-color);
 }
 
@@ -221,6 +221,8 @@ h3 {
   font-size: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  letter-spacing: 0.06em;
+  line-height: calc(30 / 16);
   outline: none;
   cursor: pointer;
   border: inherit;
