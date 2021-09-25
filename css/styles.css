@@ -417,6 +417,9 @@ h3 {
   display: block;
   margin: 0 0 9px 0;
 }
+.f-contacts__list li:last-child {
+  margin: 0;
+}
 .f-contacts__link {
   font-size: 14px;
   line-height: 1.71;
@@ -516,15 +519,14 @@ h3 {
 .portfolio__item {
   cursor: pointer;
 }
-.portfolio__item:hover {
+.item__card {
+  border-radius: 4px;
+  overflow: hidden;
+}
+.item__card:hover {
   background: #ffffff;
   box-sizing: border-box;
   box-shadow: var(--card-shadow);
-}
-.item__card {
-  /* box-shadow: var(--card-shadow); */
-  border-radius: 4px;
-  overflow: hidden;
 }
 .item__img {
   /*   margin: 0 0 20px 0; */
